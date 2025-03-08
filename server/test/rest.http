@@ -1,0 +1,32 @@
+GET http://localhost:3000/videos
+###
+DELETE http://localhost:3000/videos/2
+###
+PATCH http://localhost:3000/videos/2
+Content-Type: application/json
+
+{
+    "title": "Italien Urlaub",
+    "description": "Strandgang",
+    "note": "Mit der Familie"
+}
+###
+POST http://localhost:3000/videos
+Content-Type: application/json
+
+{
+    "title": "Sonnenaufgang am Strand",
+    "description": "Ein wunderschöner Sonnenaufgang mit sanften Wellen.",
+    "note": "Das Licht war unglaublich!",
+    "place": "Strand von Malibu",
+    "city": "Malibu",
+    "country": "USA",
+    "continent": "Nordamerika",
+    "gps_latitude": "34.0259",
+    "gps_longitude": "-118.7798",
+    "persons": ["Anna", "Max"],
+    "timestamp": "2024-08-10T08:00:00.000Z",
+    "trip": "USA-Roadtrip 2025",
+    "video": null
+}
+
