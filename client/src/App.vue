@@ -26,7 +26,7 @@ const toggleLeftDrawer = () => {
       
     </q-header>
 
-    <q-drawer v-model="leftDrawerOpen" side="left" bordered>
+    <q-drawer v-model="leftDrawerOpen" class="bg-dark text-white" side="left">
     <!-- Drawer Content -->
     <q-tabs align="left" vertical>
       <q-route-tab to="/" label="Home" />

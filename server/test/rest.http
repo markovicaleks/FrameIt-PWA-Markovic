@@ -15,7 +15,7 @@ POST http://localhost:3000/videos
 Content-Type: application/json
 
 {
-    "title": "Sonnenaufgang am Strand",
+    "title": "Sonnenaufgang am Stran",
     "description": "Ein wunderschöner Sonnenaufgang mit sanften Wellen.",
     "note": "Das Licht war unglaublich!",
     "place": "Strand von Malibu",

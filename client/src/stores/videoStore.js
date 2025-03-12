@@ -24,8 +24,8 @@ export const useVideoStore = defineStore('videoStore', () => {
     await fetchVideo(); 
   };
 
-  const patchVideo = async (id, title, description, note, place, city, country, continent) => {
-    await axios.patch('http://localhost:3000/videos/' + id, { title, description, note, place, city, country, continent });
+  const patchVideo = async (id, title, description, note) => {
+    await axios.patch('http://localhost:3000/videos/' + id, { title, description, note});
     await fetchVideo(); 
   };
 
